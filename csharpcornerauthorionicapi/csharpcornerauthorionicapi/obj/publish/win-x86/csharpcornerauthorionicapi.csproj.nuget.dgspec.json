@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\C sharp corner\\learn ionic\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi.csproj": {}
+  },
+  "projects": {
+    "F:\\C sharp corner\\learn ionic\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C sharp corner\\learn ionic\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi.csproj",
+        "projectName": "csharpcornerauthorionicapi",
+        "projectPath": "F:\\C sharp corner\\learn ionic\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi.csproj",
+        "packagesPath": "C:\\Users\\smi10\\.nuget\\packages\\",
+        "outputPath": "F:\\C sharp corner\\learn ionic\\csharpcornerauthorionicapi\\csharpcornerauthorionicapi\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\smi10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App.Runtime.win-x86": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6.19307.2, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App.Host.win-x86": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "runtime.win-x86.Microsoft.NETCore.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            },
+            "runtime.win-x86.Microsoft.NETCore.DotNetHostPolicy": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            },
+            "runtime.win-x86.Microsoft.NETCore.DotNetHostResolver": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            },
+            "runtime.win-x86.Microsoft.WindowsDesktop.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6-27804-01, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

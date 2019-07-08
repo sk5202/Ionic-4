@@ -1,0 +1,7 @@
+{
+  "name": "csharpcornerauthor",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/App_Themes/CSharp/Images/SiteLogo.png">
+    <ion-title style="margin-left: 142px;margin-top: -34px;">MEMBER BOOK</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+ 
+  <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="livesearch($event)"></ion-searchbar>
+ 
+  <ion-item>
+    <ion-label>Select Searchtype</ion-label>
+    <ion-select [(ngModel)]="type" (ionChange)="livesearch($event)">
+      <ion-select-option value="">All</ion-select-option>
+      <ion-select-option value="Admin">Admin</ion-select-option>
+      <ion-select-option value="Editor">Editor</ion-select-option>
+      <ion-select-option value="MVP">MVPs</ion-select-option>
+      <ion-select-option value="Author">Author</ion-select-option>
+    </ion-select>
+  </ion-item>
+ 
+  <ion-list>
+    <ion-item button *ngFor="let item of (results | async)" [routerLink]="['/', 'authors', item.id]">
+      <ion-avatar slot="start">
+        <img [src]="item.profilepicture">
+      </ion-avatar>
+      <ion-label text-wrap>
+        <h3>{{ item.name }}</h3>
+        <ion-icon name="locate"></ion-icon>  {{ item.location }}
+      </ion-label>
+       <ion-icon slot="end"  name="man"></ion-icon>{{item.role}}   
+    </ion-item>
+ 
+  </ion-list>
+ 
+</ion-content>
+
+
+
